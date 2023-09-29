@@ -1,0 +1,47 @@
+#contact {
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('../../assets/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    width: 600px;
+    max-width: 100%;
+    margin: 2.5rem auto;
+    div {
+      margin: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      label {
+        margin-bottom: 0.3rem;
+      }
+      input, textarea {
+        color: #333;
+        padding: 1rem 1rem;
+        outline: none;
+        width: 100%;
+        border: 1px solid #ebebeb;
+        letter-spacing: 0;
+        background: #f0f0f0;
+        border-radius: 5px;
+        font-weight: 600;
+      }
+      textarea {
+        resize: none;
+      }
+    }
+    button {
+      border: none;
+      background-color: #66ccaa;
+      width: 200px;
+      height: 50px;
+      border-radius: 3px;
+      margin: 0 auto;
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}

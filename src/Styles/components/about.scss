@@ -1,0 +1,57 @@
+#about {
+  background-color: #fafafa;
+  .container {
+    .holder {
+      padding-top: 1rem;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+      @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+      }
+      h4 {
+        margin-bottom: 1.7rem;
+      }
+      .l-side {
+        p {
+          color: #555;
+          line-height: 1.5;
+          margin-bottom: 1rem;
+          font-weight: 300;
+          font-size: 0.9rem;
+          strong {
+            font-weight: 700;
+            font-size: 1rem;
+          }
+          span {
+            color: #666;
+          }
+          a {
+            color: #4c997f;
+            font-weight: 700;
+            text-decoration: underline;
+            text-transform: capitalize;
+          }
+        }
+        .btn {
+          margin-top: 1rem;
+        }
+      }
+      .r-side {
+        .tags-holder {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          span {
+            background-color: #ddd;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-transform: capitalize;
+            user-select: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+#projects {
+  .container {
+    .holder {
+      .card {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 4rem;
+        align-items: center;
+        @media (max-width: 767px) {
+          grid-template-columns: 1fr;
+        }
+        .info {
+          h5 {
+            font-weight: 600;
+            font-size: 1.2rem;
+          }
+          p {
+            font-size: 0.9rem;
+            font-weight: 300;
+            margin: 1rem 0;
+            line-height: 1.4;
+            color: #666;
+          }
+          .tecks {
+            font-size: 0.9rem;
+          }
+          ul {
+            li {
+              padding-left: 1rem;
+              margin: 1rem 0;
+              color: #555;
+              position: relative;
+              &::before {
+                content: '\F269';
+                font-family: "bootstrap-icons";
+                padding-right: 10px;
+              }
+            }
+          }
+          .btn {
+            margin-top: 0.5rem;
+          }
+        }
+        img {
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
