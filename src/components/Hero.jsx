@@ -26,7 +26,7 @@ function Hero() {
         <a href="https://twitter.com/Waseem91701711"><i class="bi bi-twitter-x"></i></a>
         <a href="https://github.com/WaseemWisa"><i class="bi bi-github"></i></a>
       </div>
-      <a href='' className='arrow-i'><i class="bi bi-chevron-double-down"></i></a>
+      <a href='#about' className='arrow-i'><i class="bi bi-chevron-double-down"></i></a>
     </section>
   )
 }
