@@ -4,7 +4,7 @@ import '../Styles/components/hero.scss'
 import Button from './Button'
 function Hero() {
   const [text] = useTypewriter({
-    words: ['Waseem Wisa' , 'Front End Developer'],
+    words: ['Waseem Wisa' , 'A Front End'],
     loop: {}
   })
   return (
